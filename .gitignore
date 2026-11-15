@@ -1,0 +1,14 @@
+# Never commit the proprietary ATEN viewer or its native libs.
+# They are downloaded from your own BMC at runtime.
+*.jar
+*.pack.gz
+natives/
+*.so
+*.jnilib
+*.dll
+
+# scratch
+*.log
+*.png
+*.bmp
+.DS_Store
